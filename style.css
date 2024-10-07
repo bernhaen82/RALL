@@ -481,3 +481,18 @@ footer {
 .articles-container article a:hover {
     text-decoration: underline; /* Underline on hover for better interaction */
 }
+
+.submit-button {
+    padding: 15px 30px; /* Increases the padding to make the button larger */
+    font-size: 18px; /* Increases the font size for better visibility */
+    background-color: #007bff; /* Example blue background, adjust as needed */
+    color: white; /* Text color */
+    border: none; /* Removes default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor indicates the button is clickable */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.submit-button:hover {
+    background-color: #0056b3; /* Darker blue when hovered */
+}
